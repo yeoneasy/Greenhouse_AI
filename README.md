@@ -20,9 +20,14 @@
 - Colab (A100, L4, T4 GPU)
 
 ### 모델 학습
-LSTM 모델 학습:
+A농가에 대해 내부온도 예측:
 ```bash
-python train_lstm.py
+python tomato_train_inner.ipynb
+```
+
+전체 농가에 대해 내부온도 예측:
+```bash
+python tomato_train_all.ipynb
 ```
 
 구동기 제어값 학습:
