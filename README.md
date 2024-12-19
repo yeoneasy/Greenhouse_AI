@@ -33,7 +33,7 @@ python tomato_train_all.ipynb
 python tomato_train_double.ipynb
 ```
 
-A농가에 대해 일반화:
+D농가에 대해 일반화하여 예측:
 ```bash
 python tomato_normalization.ipynb
 ```
