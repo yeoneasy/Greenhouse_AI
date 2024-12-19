@@ -5,8 +5,7 @@
 
 ### 주요 기능
 - **데이터 분석**: 온실 센서의 시계열 데이터를 분석.
-- **인공지능 예측**: LSTM 및 강화 학습을 사용하여 내부 온도와 제어 값을 예측.
-- **제어 최적화**: AI 예측을 기반으로 구동기를 동적으로 조정.
+- **인공지능 예측**: LSTM 모델을 사용하여 내부 온도와 구동기 제어값을 예측.
 
 ### 데이터 설명
 이 프로젝트는 실제 온실 데이터를 활용합니다. 주요 데이터는 다음과 같습니다:
@@ -16,7 +15,6 @@
 - **구동기 데이터**: 공급온도1, 천창좌개도, 천창우개도, 커튼상개도, 커튼하개도, 측커튼개도, 외부커튼개도 등
 
 ### 학습 환경
-
 - Colab (A100, L4, T4 GPU)
 
 ### 모델 학습
@@ -35,9 +33,14 @@ python tomato_train_all.ipynb
 python tomato_train_double.ipynb
 ```
 
+A농가에 대해 일반화:
+```bash
+python tomato_normalization.ipynb
+```
+
 ### 요구 사항
 - Python 3.8+
-- TensorFlow 또는 PyTorch
+- PyTorch
 - Matplotlib
 - Pandas
 - NumPy
