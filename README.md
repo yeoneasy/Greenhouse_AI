@@ -22,7 +22,7 @@
 ### 모델 학습
 A농가에 대해 내부온도 예측:
 ```bash
-python tomato_train_inner
+python tomato_train_inner.ipynb
 ```
 
 구동기 제어값 학습:
