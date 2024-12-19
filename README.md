@@ -30,9 +30,9 @@ python tomato_train_inner.ipynb
 python tomato_train_all.ipynb
 ```
 
-구동기 제어값 학습:
+전체 농가에 대해 구동기 제어값 예측:
 ```bash
-python train_rl.py
+python tomato_train_double.ipynb
 ```
 
 ### 디렉토리 구조
