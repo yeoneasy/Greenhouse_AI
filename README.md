@@ -33,6 +33,11 @@ python tomato_train_all.ipynb
 python tomato_train_double.ipynb
 ```
 
+A농가에 대해 일반화:
+```bash
+python tomato_normalization.ipynb
+```
+
 ### 요구 사항
 - Python 3.8+
 - PyTorch
