@@ -35,24 +35,6 @@ python tomato_train_all.ipynb
 python tomato_train_double.ipynb
 ```
 
-### 디렉토리 구조
-```
-SmartGreenhouseAI/
-├── data/
-│   ├── raw/               # 원본 온실 데이터셋
-│   ├── processed/         # 전처리된 데이터셋
-├── models/                # 학습된 모델 파일
-├── notebooks/             # 분석용 Jupyter 노트북
-├── src/                   # 소스 코드
-│   ├── data_processing/   # 데이터 전처리 스크립트
-│   ├── models/            # 모델 아키텍처
-│   ├── rl/                # 강화 학습 모듈
-├── requirements.txt       # 필요한 Python 패키지
-├── train_lstm.py          # LSTM 모델 학습 스크립트
-├── train_rl.py            # 강화 학습 모델 학습 스크립트
-├── visualize.py           # 데이터 시각화 스크립트
-```
-
 ### 요구 사항
 - Python 3.8+
 - TensorFlow 또는 PyTorch
