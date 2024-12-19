@@ -35,7 +35,7 @@ python tomato_train_double.ipynb
 
 ### 요구 사항
 - Python 3.8+
-- TensorFlow 또는 PyTorch
+- PyTorch
 - Matplotlib
 - Pandas
 - NumPy
